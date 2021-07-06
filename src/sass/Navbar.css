@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.corona {
+  width: 100%;
+  height: 50px;
+  background-color: #35405a;
+  margin: 0;
+  line-height: 50px;
+  color: #fff;
+}
+.corona a {
+  color: yellow;
+}
+
+.offer {
+  display: flex;
+  padding-left: 100px;
+  width: 100%;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f7f7f7;
+  color: #58627a;
+}
+.offer p {
+  padding-left: 16px;
+}
+
+.topBanner {
+  width: 84%;
+  margin-left: 8%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #35405a;
+}
+.topBanner .left-side {
+  width: 15%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.topBanner .left-side img {
+  width: 100%;
+}
+.topBanner .center-side {
+  width: 53%;
+  padding: 0 3%;
+  height: 90px;
+}
+.topBanner .right-side {
+  width: 32%;
+  padding: 0 2%;
+  height: 90px;
+}
+.topBanner .right-side a {
+  font-weight: 600;
+}
+.topBanner .right-side .register {
+  padding: 4px 12px;
+  color: #0064d2;
+  box-shadow: 0 2px 8px 0 rgba(53, 64, 90, 0.2);
+  border-radius: 14px;
+}
+.topBanner .product-list {
+  display: flex;
+  align-items: center;
+  line-height: 90px;
+  justify-content: space-around;
+}
+.topBanner .product-list a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+/*# sourceMappingURL=Navbar.css.map */
